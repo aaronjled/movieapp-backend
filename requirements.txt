@@ -65,8 +65,9 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 distributed @ file:///opt/concourse/worker/volumes/live/34c9adba-e95e-473d-7a32-ecdf958a8844/volume/distributed_1635968220957/work
 dj-database-url==0.5.0
+# Editable install with no version control (Django==4.0.4)
+-e /Users/aaronledbetter/opt/anaconda3/lib/python3.9/site-packages
 django-cors-headers==3.11.0
-
 djangorestframework==3.13.1
 docutils @ file:///opt/concourse/worker/volumes/live/c87e10af-317d-45cb-7142-3d02053858ee/volume/docutils_1620827978243/work
 entrypoints==0.3
