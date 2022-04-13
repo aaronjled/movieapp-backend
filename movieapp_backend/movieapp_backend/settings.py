@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-vhcv*p&lf(vbrr=&f(1aj_!eazpd1m6dv=4l=ndv+7_&pf!q!i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'ancient-thicket-31941.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', 'ancient-thicket-31941.herokuapp.com']
 
 
 # Application definition
@@ -58,6 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'movieapp_backend.urls'
