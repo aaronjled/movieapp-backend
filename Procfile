@@ -1,1 +1,1 @@
-web: gunicorn movieapp_backend.wsgi.py
+web: gunicorn movieapp_backend.wsgi
